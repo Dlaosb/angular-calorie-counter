@@ -6,5 +6,5 @@ let userSchema = new Schema({
   password: {type: String, required: true}
 });
 
-let User = mongoose.model('User', userSchema);
+let User = mongoose.model('Alien', userSchema);
 module.exports = User;
